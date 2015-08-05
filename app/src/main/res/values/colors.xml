@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Almost 50 shades of purple -->
+    <color name="royal_purple">#7851A9</color>
+    <color name="purpura_azulado">#612682</color>
+    <color name="purpura_azulado_transparente">#88612682</color>
+    <color name="purpura_kinbu">#662e93</color>
+    <color name="purpura_kinbu_transparente">#88662e93</color>
+
+    <!-- A couple of shades of gold -->
+    <color name="gold">#FFD700</color>
+    <color name="transparent_gold">#88FFD700</color>
+    <color name="oro">#E7AE18</color>
+
+    <!-- Some experimental color, maybe just for texts -->
+    <color name="lost_red">#481516</color>
+    <color name="lost_black">#151623</color>
+    <color name="lost_blue">#162342</color>
+
+</resources>

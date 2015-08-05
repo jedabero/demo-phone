@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Login strings -->
+    <string name="login_with_text">Inicia sesi&#243;n con</string>
+
+    <string name="title_activity_step_by_step">Como usar Kinbu</string>
+    <string name="title_step1">Paso 1</string>
+    <string name="title_step2">Paso 2</string>
+    <string name="title_step3">Paso 3</string>
+    <string name="end_sxs_text">Termina</string>
+    <string name="action_settings">Opciones</string>
+
+    <string name="title_section">Sec</string>
+
+</resources>

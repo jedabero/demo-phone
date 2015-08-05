@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+
+    <style name="KinbuTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="android:actionBarStyle" tools:targetApi="11">@style/KinbuAB</item>
+        <item name="android:actionBarTabStyle" tools:targetApi="11">@style/KinbuABTabStyle</item>
+        <item name="android:actionBarTabTextStyle" tools:targetApi="11">@style/KinbuABTabText</item>
+        <item name="android:actionMenuTextColor" tools:targetApi="11">@color/oro</item>
+
+        <!--  Support library compatibility  -->
+        <item name="actionBarStyle">@style/KinbuAB</item>
+        <item name="actionBarTabStyle">@style/KinbuABTabStyle</item>
+        <item name="actionBarTabTextStyle">@style/KinbuABTabText</item>
+        <item name="actionMenuTextColor">@color/oro</item>
+
+    </style>
+
+    <style name="KinbuTheme_transparentAB" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="android:actionBarStyle" tools:targetApi="11">@style/KinbuAB_transparent</item>
+        <item name="android:actionBarTabStyle" tools:targetApi="11">@style/KinbuABTabStyle_transparent</item>
+        <item name="android:actionBarTabTextStyle" tools:targetApi="11">@style/KinbuABTabText</item>
+        <item name="android:actionMenuTextColor" tools:targetApi="11">@color/oro</item>
+
+        <item name="android:windowActionBar" tools:targetApi="11">false</item>
+        <item name="android:windowNoTitle">true</item>
+
+        <!-- WHEN TRUE THIS ENABLES THE LAYOUT TO FILL THE AB SPACE, SO USE A TRANSPARENT BACKGROUND FOR THE AB -->
+        <!-- item name="android:windowActionBarOverlay" tools:targetApi="11">true</item -->
+
+        <!--  Support library compatibility  -->
+        <item name="actionBarStyle">@style/KinbuAB_transparent</item>
+        <item name="actionBarTabStyle">@style/KinbuABTabStyle_transparent</item>
+        <item name="actionBarTabTextStyle">@style/KinbuABTabText</item>
+        <item name="actionMenuTextColor">@color/oro</item>
+
+        <item name="windowActionBar">false</item>
+
+        <!--item name="windowActionBarOverlay">true</item-->
+    </style>
+
+    <!-- ActionBar Style -->
+    <style name="KinbuAB" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+
+        <item name="android:background">@color/purpura_kinbu</item>
+        <item name="android:titleTextStyle" tools:targetApi="11">@style/KinbuABTitleText</item>
+
+        <!--  Support library compatibility  -->
+        <item name="background">@color/purpura_kinbu</item>
+        <item name="titleTextStyle">@style/KinbuABTitleText</item>
+    </style>
+
+    <style name="KinbuAB_transparent" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+
+        <item name="android:background">@color/purpura_azulado_transparente</item>
+        <item name="android:titleTextStyle" tools:targetApi="11">@style/KinbuABTitleText</item>
+
+        <!--  Support library compatibility  -->
+        <item name="background">@color/purpura_azulado_transparente</item>
+        <item name="titleTextStyle">@style/KinbuABTitleText</item>
+    </style>
+
+    <!-- ActionBar title text -->
+    <style name="KinbuABTitleText" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/oro</item>
+        <!-- The textColor property is backward compatible with the Support Library -->
+    </style>
+
+
+    <!-- ActionBar Tabs Style -->
+    <style name="KinbuABTabStyle" parent="@style/Widget.AppCompat.ActionBar.TabView">
+        <!-- tab indicator -->
+        <item name="android:background">@color/purpura_kinbu</item>
+
+        <!-- Support Library Compatibility -->
+        <item name="background">@color/purpura_kinbu</item>
+    </style>
+
+    <style name="KinbuABTabStyle_transparent" parent="@style/Widget.AppCompat.ActionBar.TabView">
+        <!-- tab indicator -->
+        <item name="android:background">@color/purpura_azulado_transparente</item>
+
+        <!-- Support Library Compatibility -->
+        <item name="background">@color/purpura_azulado_transparente</item>
+    </style>
+
+    <!-- ActionBar tabs text -->
+    <style name="KinbuABTabText" parent="@style/Widget.AppCompat.ActionBar.TabText">
+        <item name="android:textColor">@color/oro</item>
+        <!-- The textColor property is backward compatible with the Support Library -->
+    </style>
+
+</resources>

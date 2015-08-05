@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App specific strings -->
+    <string name="app_name">Kinbu</string>
+    <string name="app_slogan">Enjoy Different Reading</string>
+    <string name="logo_content_desc">Kinbu Logo</string>
+    <string name="app_name_uc">KINBU</string>
+    <string name="app_name_lc">kinbu</string>
+
+    <string name="half_ip">192.168.</string>
+
+    <!-- Login strings -->
+    <string name="sign_in">Sign in</string>
+
+
+    <string name="sign_up">Sign up</string>
+    <string name="sign_up_desc">Register New Kinbu Account</string>
+    <string name="name">Complete Name</string>
+    <string name="email">E-mail</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="create">Create Account</string>
+    <string name="gplus_button">G+</string>
+    <string name="fb_button">f</string>
+    <string name="account_created">Account Created!</string>
+    <string name="account_not_created">Unable to Create Account!</string>
+
+    <string name="title_activity_step_by_step">How to use Kinbu</string>
+    <string name="title_step1">Step 1</string>
+    <string name="title_step2">Step 2</string>
+    <string name="title_step3">Step 3</string>
+    <string name="end_sxs_text">Finish</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_home">Kinbu</string>
+
+    <string name="title_section">Sec</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_tab_spec">TabSpecActivity</string>
+
+</resources>
